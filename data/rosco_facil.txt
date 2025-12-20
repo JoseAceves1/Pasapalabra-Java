@@ -105,4 +105,4 @@ Y; Hembra del caballo; Yegua
 Z; Mueble para guardar los zapatos; Zapatero
 Z; Persona que puede andar como un vivo, aunque está muerto; Zombi
 Z; Parque cerrado preparado para que vivan animales salvajes de todo el mundo y que el público pueda verlos de forma segura; Zoológico
-Z; Ciudad más grande de Suiza; Zúrich
+Z; Ciudad más grande de Suiza; Zúrichjso@.;1;24;26;facil
