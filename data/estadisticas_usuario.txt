@@ -1,2 +1,3 @@
 
 jose@.;0;26;0;medio
+hiose@.;0;26;0;facil
