@@ -53,7 +53,7 @@ public class main {
             contadores[i] = 0;
         }
 
-        File fichero = new File("data/" + nombreFichero);
+        File fichero = new File("pasapalabra-java/data/" + nombreFichero);
 
         try {
             BufferedReader lector = new BufferedReader(new FileReader(fichero));
@@ -110,7 +110,7 @@ public class main {
     public static void guardarDatosPartida(
             String correo, int aciertos, int fallos, int pasapalabras, String nivel) {
 
-        File fichero = new File("data/estadisticas_usuario.txt");
+        File fichero = new File("pasapalabra-java/data/estadisticas_usuario.txt");
 
         try {
             BufferedWriter escritor = new BufferedWriter(new FileWriter(fichero, true));
