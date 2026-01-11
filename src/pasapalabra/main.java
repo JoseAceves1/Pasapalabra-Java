@@ -55,6 +55,7 @@ public class main {
 
         File fichero = new File("pasapalabra-java/data/" + nombreFichero);
 
+
         try {
             BufferedReader lector = new BufferedReader(new FileReader(fichero));
             String linea;
@@ -75,7 +76,7 @@ public class main {
             lector.close();
 
         } catch (Exception e) {
-            System.out.println("Error leyendo el fichero de preguntas");
+            System.out.println("Error leyendo el fichero de preguntas.");
         }
 
         Random random = new Random();
@@ -158,10 +159,10 @@ public class main {
         String[][] rosco = cargarDatos("rosco_" + nivel + ".txt");
 
         int aciertos = 0, fallos = 0, pasapalabras = 0;
-        boolean repetir;
+        boolean quedanPasadas;
 
         do {
-            repetir = false;
+            quedanPasadas = false;
 
             for (int i = 0; i < 26; i++) {
                 if (rosco[i][3].equals("0") || rosco[i][3].equals("3")) {
@@ -172,7 +173,7 @@ public class main {
                     if (respuesta.equalsIgnoreCase("pasapalabra")) {
                         rosco[i][3] = "3";
                         pasapalabras++;
-                        repetir = true;
+                        quedanPasadas = true;
                     } else if (respuesta.equalsIgnoreCase(rosco[i][2])) {
                         rosco[i][3] = "1";
                         aciertos++;
@@ -184,8 +185,14 @@ public class main {
                     }
                 }
             }
+            System.out.println("¿Quieres seguir jugando? (s/n)");
+            String seguirJugando = in.nextLine();
 
-        } while (repetir);
+            if (seguirJugando.equals("n")) {
+                quedanPasadas = false;
+            }
+
+        } while (quedanPasadas);
 
         System.out.println("Aciertos: " + aciertos);
         System.out.println("Fallos: " + fallos);
