@@ -9,32 +9,38 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Aplicación en consola que permite jugar a una versión simplificada
- * del juego Pasapalabra.
+ * Aplicación de consola que implementa una versión simplificada del juego
+ * Pasapalabra.
  *
- * El programa:
- * - Carga preguntas desde ficheros de texto según el nivel elegido
- * - Genera un rosco de 26 letras (A-Z)
- * - Gestiona las respuestas del usuario
- * - Guarda las estadísticas finales en un fichero
+ * Este programa se utiliza como práctica de:
+ * - Uso de matrices
+ * - Lectura y escritura de ficheros
+ * - Estructuras de control
+ * - Entrada de datos por teclado
+ *
+ * El juego carga preguntas por nivel de dificultad y guarda las estadísticas
+ * finales de cada partida en un fichero de texto.
  */
 public class main {
 
     /**
-     * Carga las preguntas desde un fichero y genera el rosco del juego.
+     * Carga las preguntas desde un fichero de texto y genera el rosco del juego.
      *
-     * Estructura del rosco (26 x 4):
-     * 0 -> Letra
+     * Cada línea del fichero debe tener el formato:
+     * LETRA;PREGUNTA;RESPUESTA
+     *
+     * El rosco se representa mediante una matriz de 26 filas (A-Z) y 4 columnas:
+     * 0 -> Letra asociada
      * 1 -> Pregunta
-     * 2 -> Respuesta
-     * 3 -> Estado
-     *      0: no planteada
-     *      1: acertada
-     *      2: fallada
-     *      3: pasapalabra
+     * 2 -> Respuesta correcta
+     * 3 -> Estado de la letra:
+     *      0 = no planteada
+     *      1 = acertada
+     *      2 = fallada
+     *      3 = pasapalabra
      *
-     * @param nombreFichero nombre del fichero de preguntas
-     * @return matriz con el rosco completo
+     * @param nombreFichero nombre del fichero que contiene las preguntas
+     * @return matriz que representa el rosco completo del juego
      */
     public static String[][] cargarDatos(String nombreFichero) {
 
@@ -54,7 +60,6 @@ public class main {
         }
 
         File fichero = new File("pasapalabra-java/data/" + nombreFichero);
-
 
         try {
             BufferedReader lector = new BufferedReader(new FileReader(fichero));
@@ -97,16 +102,16 @@ public class main {
     }
 
     /**
-     * Guarda las estadísticas finales de la partida en un fichero.
+     * Guarda las estadísticas finales de una partida en un fichero de texto.
      *
-     * Formato:
+     * El formato de cada línea es:
      * correo;aciertos;fallos;pasapalabras;nivel
      *
-     * @param correo correo del jugador
-     * @param aciertos número de aciertos
-     * @param fallos número de fallos
-     * @param pasapalabras número de pasapalabras
-     * @param nivel nivel jugado
+     * @param correo correo electrónico del jugador
+     * @param aciertos número de respuestas correctas
+     * @param fallos número de respuestas incorrectas
+     * @param pasapalabras número de pasapalabras utilizados
+     * @param nivel nivel de dificultad jugado
      */
     public static void guardarDatosPartida(
             String correo, int aciertos, int fallos, int pasapalabras, String nivel) {
@@ -119,21 +124,22 @@ public class main {
             escritor.newLine();
             escritor.close();
         } catch (Exception e) {
-            System.out.println("Error guardando las estadísticas");
+            System.out.println("Error guardando las estadísticas.");
         }
     }
 
     /**
-     * Método principal del programa.
+     * Punto de entrada de la aplicación.
      *
-     * Controla:
-     * - Registro del usuario
-     * - Selección del nivel
-     * - Ejecución del juego
-     * - Mostrar resultados
-     * - Guardar estadísticas
+     * Se encarga de:
+     * - Solicitar los datos del usuario
+     * - Validar el correo electrónico
+     * - Seleccionar el nivel de dificultad
+     * - Ejecutar el bucle principal del juego
+     * - Mostrar los resultados finales
+     * - Guardar las estadísticas de la partida
      *
-     * @param args argumentos de línea de comandos
+     * @param args argumentos de línea de comandos (no utilizados)
      */
     public static void main(String[] args) {
 
@@ -158,7 +164,9 @@ public class main {
 
         String[][] rosco = cargarDatos("rosco_" + nivel + ".txt");
 
-        int aciertos = 0, fallos = 0, pasapalabras = 0;
+        int aciertos = 0;
+        int fallos = 0;
+        int pasapalabras = 0;
         boolean quedanPasadas;
 
         do {
@@ -185,10 +193,11 @@ public class main {
                     }
                 }
             }
+
             System.out.println("¿Quieres seguir jugando? (s/n)");
             String seguirJugando = in.nextLine();
 
-            if (seguirJugando.equals("n")) {
+            if (seguirJugando.equalsIgnoreCase("n")) {
                 quedanPasadas = false;
             }
 
