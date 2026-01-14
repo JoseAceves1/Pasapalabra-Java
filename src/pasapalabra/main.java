@@ -12,35 +12,35 @@ import java.util.Scanner;
  * Aplicación de consola que implementa una versión simplificada del juego
  * Pasapalabra.
  *
- * Este programa se utiliza como práctica de:
- * - Uso de matrices
- * - Lectura y escritura de ficheros
- * - Estructuras de control
- * - Entrada de datos por teclado
- *
- * El juego carga preguntas por nivel de dificultad y guarda las estadísticas
- * finales de cada partida en un fichero de texto.
+ * Este programa permite:
+ * - Jugar una partida de Pasapalabra por consola
+ * - Cargar preguntas desde ficheros según el nivel
+ * - Gestionar respuestas y estados del rosco
+ * - Guardar estadísticas de cada partida
+ * - Mostrar estadísticas globales y el TOP 3 de jugadores
  */
 public class main {
 
     /**
      * Carga las preguntas desde un fichero de texto y genera el rosco del juego.
      *
-     * Cada línea del fichero debe tener el formato:
+     * El fichero debe tener líneas con el formato:
      * LETRA;PREGUNTA;RESPUESTA
      *
-     * El rosco se representa mediante una matriz de 26 filas (A-Z) y 4 columnas:
-     * 0 -> Letra asociada
-     * 1 -> Pregunta
-     * 2 -> Respuesta correcta
-     * 3 -> Estado de la letra:
-     *      0 = no planteada
-     *      1 = acertada
-     *      2 = fallada
-     *      3 = pasapalabra
+     * Para cada letra se elige una pregunta aleatoria.
      *
-     * @param nombreFichero nombre del fichero que contiene las preguntas
-     * @return matriz que representa el rosco completo del juego
+     * El rosco se guarda en una matriz de 26x4:
+     * 0 -> letra
+     * 1 -> pregunta
+     * 2 -> respuesta correcta
+     * 3 -> estado de la letra
+     *      0: no usada
+     *      1: acertada
+     *      2: fallada
+     *      3: pasapalabra
+     *
+     * @param nombreFichero nombre del fichero de preguntas
+     * @return matriz con el rosco completo
      */
     public static String[][] cargarDatos(String nombreFichero) {
 
@@ -102,16 +102,18 @@ public class main {
     }
 
     /**
-     * Guarda las estadísticas finales de una partida en un fichero de texto.
+     * Guarda las estadísticas de una partida en un fichero de texto.
      *
-     * El formato de cada línea es:
+     * Cada línea del fichero tiene el formato:
      * correo;aciertos;fallos;pasapalabras;nivel
      *
-     * @param correo correo electrónico del jugador
+     * Los datos se añaden al final del fichero.
+     *
+     * @param correo correo del jugador
      * @param aciertos número de respuestas correctas
      * @param fallos número de respuestas incorrectas
-     * @param pasapalabras número de pasapalabras utilizados
-     * @param nivel nivel de dificultad jugado
+     * @param pasapalabras número de pasapalabras usados
+     * @param nivel nivel jugado
      */
     public static void guardarDatosPartida(
             String correo, int aciertos, int fallos, int pasapalabras, String nivel) {
@@ -120,46 +122,62 @@ public class main {
 
         try {
             BufferedWriter escritor = new BufferedWriter(new FileWriter(fichero, true));
-            escritor.write(correo + ";" + aciertos + ";" + fallos + ";" + pasapalabras + ";" + nivel);
+            escritor.write(correo + ";" + aciertos + ";" + fallos + ";" +
+                           pasapalabras + ";" + nivel);
             escritor.newLine();
             escritor.close();
         } catch (Exception e) {
             System.out.println("Error guardando las estadísticas.");
         }
     }
-    public static void mostrarTop3yEstadisticas(){
+
+    /**
+     * Lee el fichero de estadísticas y muestra:
+     * - Estadísticas globales del juego
+     * - El TOP 3 de jugadores según el número de aciertos
+     *
+     * Cada línea del fichero representa una partida distinta.
+     * Se acumulan los datos para obtener totales.
+     */
+    public static void mostrarTop3yEstadisticas() {
+
         int partidasTotales = 0;
         int aciertosTotales = 0;
         int fallosTotales = 0;
         int pasapalabrasTotales = 0;
 
-        String[]topCorreos = new String[3];
-        int[]topAciertos = new int[3];
+        String[] topCorreos = new String[3];
+        int[] topAciertos = new int[3];
 
-        File fichero = new File("/Users/joseaceves/Grupo-2_Pasapalabra/pasapalabra-java/data/estadisticas_usuario.txt");
-        try{
+        File fichero = new File(
+            "/Users/joseaceves/Grupo-2_Pasapalabra/pasapalabra-java/data/estadisticas_usuario.txt"
+        );
+
+        try {
             BufferedReader lector = new BufferedReader(new FileReader(fichero));
             String linea;
+
             while ((linea = lector.readLine()) != null) {
-                String[]partes = linea.split(";");
+                String[] partes = linea.split(";");
+
                 if (partes.length == 5) {
                     String correo = partes[0];
-                    int aciertosEnEnteros = Integer.parseInt(partes[1]);
-                    int fallosEnEnteros = Integer.parseInt(partes[2]);
-                    int pasapalabrasEnEnteros = Integer.parseInt(partes[3]);
+                    int a = Integer.parseInt(partes[1]);
+                    int f = Integer.parseInt(partes[2]);
+                    int pa = Integer.parseInt(partes[3]);
 
                     partidasTotales++;
-                    aciertosTotales += aciertosEnEnteros;
-                    fallosTotales += fallosEnEnteros;
-                    pasapalabrasTotales += pasapalabrasEnEnteros;
+                    aciertosTotales += a;
+                    fallosTotales += f;
+                    pasapalabrasTotales += pa;
 
-                    for(int i = 0; i < 3; i++){
-                        if (aciertosEnEnteros > topAciertos[i]) {
+                    for (int i = 0; i < 3; i++) {
+                        if (a > topAciertos[i]) {
                             for (int j = 2; j > i; j--) {
                                 topAciertos[j] = topAciertos[j - 1];
                                 topCorreos[j] = topCorreos[j - 1];
-                            }  
-                            topAciertos[i] = aciertosEnEnteros;
+                            }
+                            topAciertos[i] = a;
                             topCorreos[i] = correo;
                             break;
                         }
@@ -167,8 +185,9 @@ public class main {
                 }
             }
             lector.close();
-        }catch(Exception e){
-            System.out.println("Error al leer las estadisticas.");
+
+        } catch (Exception e) {
+            System.out.println("Error al leer las estadísticas.");
         }
 
         System.out.println("\n===== ESTADÍSTICAS GENERALES =====");
@@ -184,28 +203,26 @@ public class main {
                         " → " + topAciertos[i] + " aciertos");
             }
         }
-
     }
 
     /**
-     * Punto de entrada de la aplicación.
+     * Método principal del programa.
      *
      * Se encarga de:
-     * - Solicitar los datos del usuario
-     * - Validar el correo electrónico
-     * - Seleccionar el nivel de dificultad
-     * - Ejecutar el bucle principal del juego
-     * - Mostrar los resultados finales
-     * - Guardar las estadísticas de la partida
+     * - Pedir los datos del usuario
+     * - Elegir el nivel de dificultad
+     * - Ejecutar el juego
+     * - Guardar las estadísticas
+     * - Mostrar estadísticas y ranking
      *
-     * @param args argumentos de línea de comandos (no utilizados)
+     * @param args argumentos del programa
      */
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
         System.out.print("Introduce tu nombre: ");
-        in.nextLine(); // solo informativo
+        in.nextLine();
 
         String correo;
         do {
@@ -267,3 +284,4 @@ public class main {
         in.close();
     }
 }
+
