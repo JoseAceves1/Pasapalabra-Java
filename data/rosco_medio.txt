@@ -1,108 +1,162 @@
-A; La capa de aire que rodea la Tierra; Atmósfera
+A; La capa de aire que rodea la Tierra; Atmosfera
 A; País sudamericano famoso por el tango; Argentina
 A; Elemento químico esencial para la vida cuyo símbolo es S; Azufre
-A; Enfermedad que consiste en que una persona deja de comer porque cree que está gorda; Anorexia
+A; Enfermedad que consiste en que una persona deja de comer porque cree
+que está gorda; Anorexia
 B; Elemento cuyo símbolo químico es Ba; Bario
 B; Lugar donde se guardan y envejecen los vinos; Bodega
-B; Deporte de contacto que se practica en un ring usando solo los puños; Boxeo
-B; Deporte en el que se utiliza un volante y una red; Bádminton
-C; El animal con rayas blancas y negras; Cebra
+B; Deporte de contacto que se practica en un ring usando solo los puños;
+Boxeo
+B; Deporte en el que se utiliza un volante y una red; Badminton
+C; Animal con rayas blancas y negras originario de África; Cebra
 C; Capa más externa y delgada del planeta Tierra; Corteza
 C; País asiático que alberga la Ciudad Prohibida; China
 C; País de Sudamérica mayormente productor de café; Colombia
-D; Forma de gobierno en la que los ciudadanos pueden votar y elegir a las personas que dirigen el país; Democracia
+D; Forma de gobierno en la que los ciudadanos pueden votar y elegir a las
+personas que dirigen el país; Democracia
 D; Empieza por D: Ser imaginario que es travieso y de buen corazón; Duende
 D; País nórdico en el norte de Europa y su capital es Copenhague; Dinamarca
-D; Apellido del actor y productor de cine estadounidense conocido por actuar en la película de Titanic y El Lobo de Wall Street; DiCaprio
+D; Apellido del actor y productor de cine estadounidense conocido por actuar
+en la película de Titanic y El Lobo de Wall Street; DiCaprio
 E; Moneda oficial de la Unión Europea; Euro
 E; El lugar donde los alumnos aprenden; Escuela
 E; Piedra preciosa de color verde; Esmeralda
 E; Elemento cuyo símbolo químico es Er; Erbio
-F; Proceso por el cual las plantas crean su alimento; Fotosíntesis
-F; El hueso más largo del cuerpo humano; Fémur
-F; Archipiélago en el sudeste asiático, con una rica cultura y muchas islas; Filipinas
-F; Plato de queso derretido con vino en el que cada persona moja trozos de pan o de carne; Fondue
+F; Proceso por el cual las plantas crean su alimento; Fotosintesis
+F; El hueso más largo del cuerpo humano; Femur
+F; Archipiélago en el sudeste asiático, con una rica cultura y muchas islas;
+Filipinas
+
+F; Plato de queso derretido con vino en el que cada persona moja trozos de
+pan o de carne; Fondue
 G; Empieza por G: Bebida alcohólica muy fuerte; Ginebra
 G; Disgusto, malestar, alteración del ánimo; Grima
-G; País del sureste de Europa, miembro de la UE, considerado la cuna de la civilización occidental, cuya capital es Atenas; Grecia
-G; Actriz conocida por su actuación en la película de la Mujer Maravilla; Gal Gadot
+G; País del sureste de Europa, miembro de la UE, considerado la cuna de la
+civilización occidental, cuya capital es Atenas; Grecia
+G; Nombre de Actriz conocida por su actuación en la película de la Mujer
+Maravilla; Gal
 H; El nombre que recibe un periodo de 60 minutos; Hora
 H; Símbolo químico del Hidrógeno; H
-H; País sin salida al mar en Europa Central, miembro de la UE, conocido por su capital, Budapest; Hungría
+H; País sin salida al mar en Europa Central, miembro de la UE, conocido por su
+capital, Budapest; Hungria
 H; Deporte olímpico de levantamiento de peso; Halterofilia
-I; Empieza por I: País grande del sur de Asia, conocido por ser el más poblado del mundo y la democracia más grande, con una inmensa diversidad cultura; India
-I; Que no se puede pasar a otra persona o no se puede llevar a otro lugar; Intransferible
-I; País conocido por ser de habla inglesa y cuya capital es Londres; Inglaterra
-I; Daño que produce en el organismo un producto tóxico o un alimento en mal estado; Intoxicación
-J; Empieza por J: Ordenar las cosas según el nivel de importancia o categoría; Jerarquía
-J; Es una isla y un país caribeño conocido por su rica cultura, música reggae y belleza natural; Jamaica
+I; Empieza por I: País grande del sur de Asia, conocido por ser el más poblado
+del mundo y la democracia más grande, con una inmensa diversidad cultura;
+India
+I; Que no se puede pasar a otra persona o no se puede llevar a otro lugar;
+Intransferible
+I; País conocido por ser de habla inglesa, su bandera es Blanca con una X en
+rojo; Inglaterra
+I; Daño que produce en el organismo un producto tóxico o un alimento en mal
+estado; Intoxicación
+J; Empieza por J: Ordenar las cosas según el nivel de importancia o categoría;
+Jerarquia
+J; Es una isla y un país caribeño conocido por su rica cultura, música reggae y
+belleza natural; Jamaica
 J; Arte marcial japonés moderno que es también un deporte olímpico; Judo
-J; Nombre del empresario, ingeniero y magnate estadounidense, fundador de Amazon; Jeff
+J; Nombre del empresario, ingeniero y magnate estadounidense, fundador de
+Amazon; Jeff
 K; El pico más alto de África; Kilimanjaro
 K; Entretenimiento que consiste en cantar canciones conocidas; Karaoke
-K; Nombre de famoso jugador de baloncesto que murió en un trágico accidente en un helicóptero; Kobe
-K; Empieza por K: Conjunto de cosas que se usan para un mismo fin; Kit
+K; Nombre de famoso jugador de baloncesto que murió en un trágico accidente
+en un helicóptero; Kobe
+K; Marca de moto japonesa conocida por su potencia, tecnología avanzada y
+diseño deportivo; Kawasaki
 L; Pájaro que puede imitar el habla humana; Loro
 L; Arma que lanza un chorro de líquido ardiendo; Lanzallamas
-L; Animal mamífero carnívoro. Tiene la cabeza grande, los dientes afilados y la piel es amarilla con manchas oscuras; Leopardo
-L; Persona que es adicta a los juegos de azar, por ejemplo, a las máquinas tragaperras; Ludópata
+
+L; Animal mamífero carnívoro. Tiene la cabeza grande, los dientes afilados y la
+piel es amarilla con manchas oscuras; Leopardo
+L; Persona que es adicta a los juegos de azar, por ejemplo, a las máquinas
+tragaperras; Ludopata
 M; Elemento cuyo símbolo químico es Mg; Magnesio
 M; Elemento cuyo símbolo químico es Hg; Mercurio
-M; Animal mamífero herbívoro acuático. Tiene 2 aletas y su cola es aplanada; Manatí
-M; Animal mamífero roedor que tiene mucho pelo, orejas pequeñas, cola larga y vive en familias en madrigueras; Marmota
-N; Elemento cuyo símbolo químico es N; Nitrógeno
+M; Animal mamífero herbívoro acuático. Tiene 2 aletas y su cola es aplanada;
+Manati
+M; Animal mamífero roedor que tiene mucho pelo, orejas pequeñas, cola larga
+y vive en familias en madrigueras; Marmota
+N; Elemento cuyo símbolo químico es N; Nitrogeno
 N; Famoso río que atraviesa Egipto; Nilo
-N; País montañoso sin salida al mar en el Himalaya, famoso por albergar el Monte Everest y otras cumbres altas, limitando con China al norte y la India al sur; Nepal
-N; Persona que siente una admiración exagerada por sus cualidades personales; Narcisista
-Ñ; Contiene la Ñ: Estación del año donde los árboles pierden sus hojas antes del invierno; Otoño
-Ñ; Masa hecha con patatas mezcladas con harina de trigo, mantequilla, leche, huevo y queso rallado, dividida en trocitos, que se cuecen en agua hirviendo con sal; Ñoqui
-Ñ: Contiene la Ñ: País con capital en Madrid, conocido por su diversidad cultural, geografía y riqueza histórica; España
-Ñ: Contiene la Ñ: Construcción rústica pequeña, de materiales pobres, destinada a refugio o vivienda; Cabaña
-O; Edificio dedicado a la observación del tiempo, del cielo o de las estrellas; Observatorio
+N; País montañoso sin salida al mar en el Himalaya, famoso por albergar el
+Monte Everest y otras cumbres altas, limitando con China al norte y la India al
+sur; Nepal
+N; Persona que siente una admiración exagerada por sus cualidades
+personales; Narcisista
+O; Edificio dedicado a la observación del tiempo, del cielo o de las estrellas;
+Observatorio
 O; Donación que se ofrece a un Dios, un santo o una buena causa; Ofrenda
 O; Empieza por O: Inflamación del oído; Otitis
-O; Animal mamífero que vive en los ríos y lagos de Australia. Tiene un hocico parecido al de un pato; Ornitorrinco
-P; Conjunto de bienes o cosas de valor que tiene una persona o entidad; Patrimonio
+O; Animal mamífero que vive en los ríos y lagos de Australia. Tiene un hocico
+parecido al de un pato; Ornitorrinco
+P; Conjunto de bienes o cosas de valor que tiene una persona o entidad;
+Patrimonio
 P; Arma de fuego pequeña que se dispara con 1 mano; Pistola
 P; Persona que habla varios idiomas; Poliglota
-P; Tratamiento de enfermedades nerviosas, problemas de la mente, del comportamiento o de las emociones con técnicas y métodos psicológicos; Psicoterapia
-Q; Empieza por Q: Unidad de peso que sirve para pesar piedras preciosas; Quilate
+P; Tratamiento de enfermedades nerviosas, problemas de la mente, del
+comportamiento o de las emociones con técnicas y métodos psicológicos;
+Psicoterapia
+Q; Empieza por Q: Unidad de peso que sirve para pesar piedras preciosas;
+Quilate
 Q; Vehículo para quitar la nieve de las carreteras y caminos; Quitanieves
-Q; Empieza por Q: Número mínimo de personas que tienen que estar en una reunión o asamblea para que tengan validez los acuerdos; Quorum
-Q; Comienza en Q: Bulto de líquido o de grasa que sale en distintas partes del cuerpo; Quiste
+Q; Empieza por Q: Número mínimo de personas que tienen que estar en una
+reunión o asamblea para que tengan validez los acuerdos; Quorum
+Q; Comienza en Q: Bulto de líquido o de grasa que sale en distintas partes del
+cuerpo; Quiste
+
 R; Símbolo químico del Radón; Rn
 R; Región española famosa por el vino, ubicada en el norte de España; Rioja
 R; Marca famosa de bebidas energéticas originaria de Austria; Red Bull
-R; País más grande del mundo, extendiéndose por Europa del Este y el norte de Asia, con capital en Moscú; Rusia
-S; Pez de río conocido por saltar grandes distancias; Salmón
-S; Empieza por S: País soberano en el extremo sur de África que albergo el mundial de futbol de 2010; Sudáfrica
-S; Enfermedad contagiosa que produce manchas en la piel. Provoca tos, estornudos, fiebre y enrojecimiento en los ojos; Sarampión
-S; Conjunto de elementos relacionados que forman parte de un sistema más grande; Subsistema
+R; País más grande del mundo, extendiéndose por Europa del Este y el norte
+de Asia, con capital en Moscú; Rusia
+S; Pez de río conocido por saltar grandes distancias; Salmon
+S; Empieza por S: País soberano en el extremo sur de África que albergo el
+mundial de futbol de 2010; Sudafrica
+S; Enfermedad contagiosa que produce manchas en la piel. Provoca tos,
+estornudos, fiebre y enrojecimiento en los ojos; Sarampion
+S; Conjunto de elementos relacionados que forman parte de un sistema más
+grande; Subsistema
 T; Elemento cuyo símbolo químico es Ti; Titanio
-T; Procedimiento que consiste en pasar sangre de una persona a otra; Transfusión
-T; Parte del cuerpo humano y de los animales que va desde el cuello hasta el abdomen; Tórax
+T; Procedimiento que consiste en pasar sangre de una persona a otra;
+Transfusion
+T; Parte del cuerpo humano y de los animales que va desde el cuello hasta el
+abdomen; Torax
 T; Instrumento óptico que permite ver objetos muy lejanos; Telescopio
 U; El planeta más lejano visible a simple vista; Urano
 U; País cuya capital es Montevideo; Uruguay
-U; Empieza por U: Parte de la medicina que estudia el aparato urinario y el aparato reproductor de los hombres; Urología
-U; Empieza por U: País soberano en Europa del Este, cuya capital es Kiev; Ucrania
+U; Empieza por U: Parte de la medicina que estudia el aparato urinario y el
+aparato reproductor de los hombres; Urologia
+U; Empieza por U: País soberano en Europa del Este, cuya capital es Kiev;
+Ucrania
 V; Medida de capacidad de un recipiente; Volumen
 V; Unidad de potencia eléctrica; Vatio
 V; Elemento cuyo símbolo químico es V; Vanadio
-V; Nombre de la galaxia a la que pertenece nuestro sistema solar; Vía Láctea
+V; Nombre de la galaxia a la que pertenece nuestro sistema solar; Via actea
 W; Apellido del primer presidente de los Estados Unidos; Washington
-W; Estudio estadounidense gigante de cine, televisión y entretenimiento, fundado por los hermanos Warner en 1923; Warner Bros
-W; Especie de pastel o galleta hecha de masa que se cocina entre dos placas calientes con relieve, creando una textura crujiente por fuera y suave por dentro, con un característico diseño de cuadrícula o panal de abejas; Waffle
-W; Todos los componentes físicos de un dispositivo informático, es decir, las partes que se pueden ver y tocar; Hardware
-X; Contiene la X: Instrumento musical de viento-madera, hecho generalmente de metal (latón), con forma de tubo cónico doblado en "J"; Saxofón
-X; Contiene la X: Prueba o procedimiento que se realiza de forma intencionada para observar, descubrir o demostrar un fenómeno en un laboratorio; Experimento
-X; Proceso de copia de un texto o una imagen en papel mediante una máquina; Xerografía
-X; Contiene la X: Inmensa agrupación de estrellas, gas, polvo, planetas y materia oscura, unida por la gravedad, formando un sistema autónomo dentro del universo; Galaxia
+W; Estudio estadounidense gigante de cine, televisión y entretenimiento,
+fundado por los hermanos Warner en 1923; Warner bros
+W; Especie de pastel o galleta hecha de masa que se cocina entre dos placas
+calientes con relieve, creando una textura crujiente por fuera y suave por
+dentro, con un característico diseño de cuadrícula o panal de abejas; Waffle
+W; Todos los componentes físicos de un dispositivo informático, es decir, las
+partes que se pueden ver y tocar; Hardware
+
+X; Contiene la X: Instrumento musical de viento-madera, hecho generalmente
+de metal (latón), con forma de tubo cónico doblado en &quot;J&quot;; Saxofon
+X; Contiene la X: Prueba o procedimiento que se realiza de forma intencionada
+para observar, descubrir o demostrar un fenómeno en un laboratorio;
+Experimento
+X; Proceso de copia de un texto o una imagen en papel mediante una máquina;
+Xerografia
+X; Contiene la X: Inmensa agrupación de estrellas, gas, polvo, planetas y
+materia oscura, unida por la gravedad, formando un sistema autónomo dentro
+del universo; Galaxia
 Y; País asiático cuya capital es Saná; Yemen
 Y; Tipo de yoga que implica posturas pasivas y prolongadas; Yin
 Y; Sustancia de color oscuro usada para desinfectar heridas; Yodo
-Y; Uno de los huesecillos que hay en la parte media del oído de los mamíferos, situado entre el martillo y el estribo; Yunque
+Y; Uno de los huesecillos que hay en la parte media del oído de los mamíferos,
+situado entre el martillo y el estribo; Yunque
 Z; Persona que tiene el cabello rizado; Zarceño
 Z; Tipo de calzado sin talón; Zueco
 Z; Género musical originario de Nueva Orleans; Jazz
-Z; Vaso sagrado de oro o plata que sirve en la misa para echar el vino que se ha de consagrar; Caliz
+Z; Contiene la Z: Vaso sagrado de oro o plata que sirve en la misa para echar
+el vino que se ha de consagrar; Caliz
