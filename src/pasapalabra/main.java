@@ -127,6 +127,65 @@ public class main {
             System.out.println("Error guardando las estadísticas.");
         }
     }
+    public static void mostrarTop3yEstadisticas(){
+        int partidasTotales = 0;
+        int aciertosTotales = 0;
+        int fallosTotales = 0;
+        int pasapalabrasTotales = 0;
+
+        String[]topCorreos = new String[3];
+        int[]topAciertos = new int[3];
+
+        File fichero = new File("/Users/joseaceves/Grupo-2_Pasapalabra/pasapalabra-java/data/estadisticas_usuario.txt");
+        try{
+            BufferedReader lector = new BufferedReader(new FileReader(fichero));
+            String linea;
+            while ((linea = lector.readLine()) != null) {
+                String[]partes = linea.split(";");
+                if (partes.length == 5) {
+                    String correo = partes[0];
+                    int aciertosEnEnteros = Integer.parseInt(partes[1]);
+                    int fallosEnEnteros = Integer.parseInt(partes[2]);
+                    int pasapalabrasEnEnteros = Integer.parseInt(partes[3]);
+
+                    partidasTotales++;
+                    aciertosTotales += aciertosEnEnteros;
+                    fallosTotales += fallosEnEnteros;
+                    pasapalabrasTotales += pasapalabrasEnEnteros;
+
+                    for(int i = 0; i < 3; i++){
+                        if (aciertosEnEnteros > topAciertos[i]) {
+                            for (int j = 2; j > i; j--) {
+                                topAciertos[j] = topAciertos[j - 1];
+                                topCorreos[j] = topCorreos[j - 1];
+                            }  
+                            topAciertos[i] = aciertosEnEnteros;
+                            topCorreos[i] = correo;
+                            break;
+                        }
+                    }
+                }
+            }
+            lector.close();
+        }catch(Exception e){
+            System.out.println("Error al leer las estadisticas.");
+        }
+
+        System.out.println("\n===== ESTADÍSTICAS GENERALES =====");
+        System.out.println("Partidas: " + partidasTotales);
+        System.out.println("Aciertos: " + aciertosTotales);
+        System.out.println("Fallos: " + fallosTotales);
+        System.out.println("Pasapalabras: " + pasapalabrasTotales);
+
+        System.out.println("\n===== TOP 3 JUGADORES =====");
+        for (int i = 0; i < 3; i++) {
+            if (topCorreos[i] != null) {
+                System.out.println((i + 1) + ". " + topCorreos[i] +
+                        " → " + topAciertos[i] + " aciertos");
+            }
+        }
+
+    }
 
     /**
      * Punto de entrada de la aplicación.
@@ -203,11 +262,8 @@ public class main {
 
         } while (quedanPasadas);
 
-        System.out.println("Aciertos: " + aciertos);
-        System.out.println("Fallos: " + fallos);
-        System.out.println("Pasapalabras: " + pasapalabras);
-
         guardarDatosPartida(correo, aciertos, fallos, pasapalabras, nivel);
+        mostrarTop3yEstadisticas();
         in.close();
     }
 }
