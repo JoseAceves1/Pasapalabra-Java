@@ -1,7 +1,7 @@
 A; Comienza por A: Ciencia que estudia los astros; Astronomia
 A; Comienza por A: Pieza de ajedrez que se mueve en diagonal; Alfil
 A; Juego de mesa con tablero y piezas de color blanco y negro; Ajedrez
-A; Comienza por A: Tipo de serpiente muy larga originaria de Suramérica;Anaconda
+A; Comienza por A: Tipo de serpiente muy larga originaria de Suramérica; Anaconda
 B; País más grande de Sudamérica; Brasil
 B; Empieza por la B: Ave rapaz nocturna con ojos grandes; Buho
 B; La prenda que usas en el cuello para el frio; Bufanda
@@ -10,8 +10,8 @@ C; El único número que no tiene representación en números romanos; Cero
 C; Un órgano complejo que controla el pensamiento y todos los procesos que regulan nuestro cuerpo; Cerebro
 C; Elemento químico esencial para la vida cuyo símbolo es C; Carbono
 C; El músculo que bombea la sangre; Corazon
-D; Empieza por D: Perro de tamaño mediano y pelo corto con manchas negras;Dalmata
-D; Persona que investiga asuntos encargados por un cliente o por la policía;Detective
+D; Empieza por D: Perro de tamaño mediano y pelo corto con manchas negras; Dalmata
+D; Persona que investiga asuntos encargados por un cliente o por la policía; Detective
 D; Piedra preciosa de color transparente y muy dura. Es muy valioso y se utiliza para hacer joyas; Diamante
 D; Animal de gran tamaño, muy fuerte y que se extinguió hace millones de años; Dinosaurio
 E; Forma de energía que sirve para que funcionen, por ejemplo, la luz y los electrodomésticos; Electricidad
@@ -47,14 +47,14 @@ L; El nombre del rey de la selva; Leon
 L; Comienza por L: Animal que se parece a un camello sin joroba originario de Perú; Llama
 L; El idioma que hablaban los antiguos romanos; Latin
 L; Comienza por L: El satélite natural de la Tierra; Luna
-M; Mamífero que vuela es nocturno, vive en cuevas y es símbolo de Batman;Murciélago
+M; Mamífero que vuela es nocturno, vive en cuevas y es símbolo de Batman; Murciélago
 M; Instrumento óptico para ver cosas muy pequeñas; Microscopio
 M; La ciencia que estudia los números; Matematicas
 M; Vehículo de Dos ruedas; Motocicleta
 N; Comienza por N: El país conocido por sus fiordos y renos; Noruega
 N; Nube grande formada por materiales que flotan en el espacio, como gases y polvo; Nebulosa
 N; Empieza por N: Animal mamífero carnívoro. El cuerpo es alargado y las patas cortas; Nutria
-N; Persona que se especializa en la alimentación de otras personas;Nutricionista
+N; Persona que se especializa en la alimentación de otras personas; Nutricionista
 O; El metal más valioso y brillante de color amarillezco; Oro
 O; Animal mamífero marino de gran tamaño. Es de la familia de los delfines. Su cuerpo es negro con manchas blancas; Orca
 O; Regalo hecho como agradecimiento o por cariño a otra persona; Obsequio
@@ -62,7 +62,7 @@ O; Sacerdote de religión cristiana que gobierna un obispado o diócesis; Obispo
 P; El órgano que usas para respirar; Pulmon
 P; El lugar donde van los barcos; Puerto
 P; País cuya capital es Lisboa; Portugal
-P; Felino carnívoro rápido y ágil. Es de color negro o con rayas oscuras;Pantera
+P; Felino carnívoro rápido y ágil. Es de color negro o con rayas oscuras; Pantera
 Q; La palabra que se usa para hacer una pregunta; Que
 Q; Ciencia que estudia la composición de las sustancias y cómo pueden cambiarse; Quimica
 Q; Lugar que está preparado para operar a personas o animales en un hospital o una clínica; Quirofano
@@ -73,12 +73,12 @@ R; Condición necesaria para hacer o conseguir algo; Requisito
 R; Creencia u opinión de que una persona de una raza es superior a otra y por tanto mejor; Racismo
 S; Guerrero militar de Japón. Iba a caballo y llevaba armadura; Samurai
 S; Actividad deportiva que consiste en caminar por el monte o por el campo siguiendo una ruta determinada; Senderismo
-S; Persona entrenada para ayudar a otras en una situación de emergencia;Socorrista
+S; Persona entrenada para ayudar a otras en una situación de emergencia; Socorrista
 S; País montañoso sin salida al mar en Europa central, famoso por su neutralidad política y alta calidad de vida; Suiza
 T; La parte de la planta que da soporte y transporta agua; Tallo
-T; Bebida alcohólica muy fuerte transparente que es originaria de México;Tequila
-T; Reptil con caparazón que suelen esconderse dentro de su caparazón;Tortuga
-T; Ola gigante producida por un maremoto o una erupción volcánica en el mar;Tsunami
+T; Bebida alcohólica muy fuerte transparente que es originaria de México; Tequila
+T; Reptil con caparazón que suelen esconderse dentro de su caparazón; Tortuga
+T; Ola gigante producida por un maremoto o una erupción volcánica en el mar; Tsunami
 U; Empieza por U: Instrumento musical de cuerda. Es parecido a la guitarra, pero más pequeño y con 4 cuerdas; Ukelele
 U; Comienza en U: Necesidad de solucionar algo con rapidez; Urgencia
 U; Séptimo planeta del sistema solar. Tiene un sistema de anillos a su alrededor y muchos satélites; Urano
@@ -92,7 +92,7 @@ W; Comienza por W: El inventor famoso de Mickey Mouse; Walt Disney
 W; Tecnología que sirve para conectar a internet sin cables; Wifi
 W; Contiene la W: Conjunto de programas, instrucciones, reglas y datos intangibles que le dicen al hardware qué hacer y cómo hacerlo; Software
 X; Contiene la X: Tipo de máquina que hace fotos del interior del cuerpo; Rayos X
-X; Empieza por X: Instrumento musical de percusión con láminas de madera;Xilófono
+X; Empieza por X: Instrumento musical de percusión con láminas de madera; Xilófono
 X; Odio a los extranjeros o a las cosas de otros países; Xenofobia
 X; Contiene X; Coche con conductor que sirve para desplazarse donde el cliente indica al conductor el lugar al que desea ir; Taxi
 Y; Lugar en el que hay gran cantidad de un mineral, una roca o restos de antiguas culturas; Yacimiento

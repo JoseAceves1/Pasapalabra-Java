@@ -9,10 +9,10 @@ B; Cosa con dos ruedas que sirve para transportarte; Bicicleta
 C; Animal que tiene jorobas y vive en el desierto; Camello
 C; El número que sigue al cuatro; Cinco
 C; Comienza por C: El animal que tiene rayas blancas y negras; Cebra
-C; El animal que hace &#39;oink-oink&#39;; Cerdo
+C; El animal que hace oink-oink; Cerdo
 D; El mes donde celebramos la Navidad; Diciembre
 D; El número que sigue al uno; Dos
-D; Comienza por D: Parte del cuerpo que tienes que cepillarte todos los días;Dientes
+D; Comienza por D: Parte del cuerpo que tienes que cepillarte todos los días; Dientes
 D; La primera comida del Dia; Desayuno
 E; País en Europa donde se habla español; España
 E; El pico más alto del mundo; Everest
@@ -21,27 +21,23 @@ E; Deporte de invierno donde te deslizas por la nieve; Esquiar
 F; Sinónimo de alegre o contento; Feliz
 F; Empieza por F: Mamífero marino que parece un perrito nadador; Foca
 F; Deporte donde juega Messi y Cristiano Ronaldo; Futbol
-F; Empieza por F; Grupo especial de personas que se quieren mucho y se
-cuidan; Familia
-G; Comienza por G: Un animal de casa que dice &#39;miau&#39;; Gato
+F; Empieza por F; Grupo especial de personas que se quieren mucho y se cuidan; Familia
+G; Comienza por G: Un animal de casa que dice miau; Gato
 G; Sinónimo de grande, pero empieza por G; Gigante
 G; Comienza por G: Sirve para borrar lo que escribiste mal; Goma
 G; Animal que tiene alas y pone huevos; Gallina
 H; Comienza por H: Lo que haces para saludar con la mano; Hola
 H; Comienza por H: Un tipo de dulce congelado; Helado
 H; Lugar donde te llevan si te enfermas; Hospital
-H; Empieza por H: Avión que vuela con una hélice gigante en la parte de arriba,
-en lugar de alas; Helicoptero
+H; Empieza por H: Avión que vuela con una hélice gigante en la parte de arriba en lugar de alas; Helicoptero
 I; La estación del año donde hace mucho frío; Invierno
 I; Comienza por I: El lugar donde viven los esquimales; Iglu
 I; Sinónimo de imaginar o crear; Inventar
 I; Animales pequeños y especiales que no tienen huesos; Insectos
 J; Comienza por J: El día después del miércoles; Jueves
 J; Lo usamos para bañarnos y huele bien; Jabon
-J; Animal con un cuello súper largo para comer hojas de los árboles más altos,
-patas larguísimas y manchas únicas; Jirafa
-J; Comienza por J: Cerdo salvaje con pelo duro y oscuro, cabeza grande, patas
-cortas y colmillos que salen de su boca; Jabali
+J; Animal con un cuello súper largo para comer hojas de los árboles más altos, patas larguísimas y manchas únicas; Jirafa
+J; Comienza por J: Cerdo salvaje con pelo duro y oscuro, cabeza grande, patas cortas y colmillos que salen de su boca; Jabali
 K; Deporte de combate de origen japonés; Karate
 K; La medida que se usa para pesar personas; Kilo
 K; Fruta deliciosa con piel marrón peluda y color verde por dentro con semillitas negras; Kiwi
@@ -67,28 +63,28 @@ P; Juguete con ruedas que te permite deslizarte; Patinete
 P; Comienza por P: El mejor amigo del hombre; Perro
 P; Comienza por P: Lo que comes después de la comida principal; Postre
 Q; Embutido que se hace con la leche; Queso
-Q; Contiene la Q: Lugar donde van a jugar con los amigos en el área libre;Parque
+Q; Contiene la Q: Lugar donde van a jugar con los amigos en el área libre; Parque
 Q; Numero que viene después del Catorce; Quince
-Q; Contiene la Q: Grupo de niños que se unen y trabajan juntos, compartiendo ideas y habilidades para lograr una meta o resolver un problema común;Equipo
-R; Empieza por R: Sonido no deseado que produce molestias e incomodidad;Ruido
+Q; Contiene la Q: Grupo de niños que se unen y trabajan juntos, compartiendo ideas y habilidades para lograr una meta o resolver un problema común; Equipo
+R; Empieza por R: Sonido no deseado que produce molestias e incomodidad; Ruido
 R; Empieza por R: Animalito pequeño y peludo que pertenece a los roedores, y le gusta el queso; Raton
-R; Comienza por R: Un animal de color verde que le gusta el agua y salta;Rana
+R; Comienza por R: Un animal de color verde que le gusta el agua y salta; Rana
 R; El color de la sangre; Rojo
 S; Comienza por S: Lo que tienes cuando estás durmiendo; Sueño
 S; El día antes del domingo; Sabado
 S; Comienza por S: El lugar donde te sientas en la clase; Silla
-S; Reptil que no tiene pata, tienen un cuerpo largo y está cubierto de escamas;Serpiente
+S; Reptil que no tiene pata, tienen un cuerpo largo y está cubierto de escamas; Serpiente
 T; Comienza por T: El número que sigue al dos; Tres
-T; El transporte que va por vías especiales que es muy largo y dice “chu-chu”;Tren
+T; El transporte que va por vías especiales que es muy largo y dice “chu-chu”; Tren
 T; Comienza por T: Lo que usas para beber café o té; Taza
 T; El felino más grande del mundo, un cazador fuerte con pelaje naranja y rayasnegras; Tigre
 U; El número que sigue al cero; Uno
 U; Comienza por U: Las frutas que crecen en un racimo y son de color morado o verde; Uvas
 U; Animal mágico parecido a un caballo blanco con un cuerno largo en la frente; Unicornio
-U; Empieza por U: Parte dura de los dedos;Uña
+U; Empieza por U: Parte dura de los dedos; Uña
 V; Comienza por V: El color de las hojas de los árboles; Verde
 V; Comienza por V: Cosa que sirve para beber; Vaso
-V; Comienza por V: El animal que hace &#39;muuuu&#39;; Vaca
+V; Comienza por V: El animal que hace muuu; Vaca
 V; Empieza por V: Lo que hacen los pájaros con sus alas; Volar
 W; Comienza por W: Deporte de tabla en el agua con una vela; Windsurf
 W; Empieza por W: Deporte de equipo en el agua donde dos equipos intentan meter una pelota en la portería contraria; Waterpolo

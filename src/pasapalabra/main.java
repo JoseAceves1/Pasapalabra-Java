@@ -150,7 +150,7 @@ public class main {
         int[] topAciertos = new int[3];
 
         File fichero = new File(
-            "/Users/joseaceves/Grupo-2_Pasapalabra/pasapalabra-java/data/estadisticas_usuario.txt"
+            "pasapalabra-java/data/estadisticas_usuario.txt"
         );
 
         try {
